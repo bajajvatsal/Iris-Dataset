@@ -34,7 +34,7 @@ plt.show()
 df_corr = df.copy()
 df_corr = df_corr.drop(["Id", "Species"], axis=1)
 corr = df_corr.corr()
-sns.heatmap(corr, cmap="Blues")
+sns.heatmap(corr, cmap="Blues",annot=corr)
 plt.show()
 
 # Data Preprocessing
