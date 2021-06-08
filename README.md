@@ -4,6 +4,10 @@ This is a classic classification problem of iris-flower species.
 
 Link for [Kaggle Notebook](https://www.kaggle.com/vatsalbajaj/logistic-regression-classifier-and-svc-model)
 
+Check more on the notebook [Github Notebook](https://github.com/bajajvatsal/Iris-Dataset/blob/main/iris-dataset-classification.ipynb) / [Web-nbviewer](https://nbviewer.jupyter.org/github/bajajvatsal/Iris-Dataset/blob/main/iris-dataset-classification.ipynb)
+or
+[Python Script](https://github.com/bajajvatsal/Iris-Dataset/blob/main/iris-dataset-classification.py)
+
 ## Project Planning
 
 ### Problem
@@ -37,13 +41,9 @@ The species column in dataframe is required to convert all the strings values of
 2. Petal Areas Plotting
 3. Heat-map of correlations between features with annotations
 
-## Model Selection
+## Model and Accuracy Score
 
-1. Logistic regression classifier
-2. Support vector regression classifier
-
-## Accuracy Score
-
-Logistic regression classifier - 0.934
-
-Support vector regression classifier - 0.967
+5. Logistic Regression classifier - 0.866667
+6. Support Vector classifier - 0.900000
+7. Decision Tree classifier - 0.700000
+8. Naive Bayes classifier - 0.900000
